@@ -1,0 +1,6 @@
+function betterThanAverage(classPoints, yourPoints) {
+  let mean = (classPoints.reduce((a,b) => (a +b),0 ) + yourPoints) / classPoints.length;
+  
+  return mean <= yourPoints ? true : false;
+
+}
