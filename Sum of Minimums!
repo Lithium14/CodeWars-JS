@@ -1,0 +1,8 @@
+function sumOfMinimums(arr) {
+let sum =0;
+arr.forEach(e => {
+  e.sort((a,b) => a-b)[0]
+  sum += e.sort((a,b) => a-b)[0]
+})
+return sum
+}
